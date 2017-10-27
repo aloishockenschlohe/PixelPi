@@ -289,19 +289,19 @@ The wiring for all the 160 LED's looks like this
 For a propper mapping, the file pixel_map.csv should look like this
 (without the comments, of course):
 
-   +-- START ---
-   |0,9    # Line   0: LED  0 (closest to the raspberry) represents the pixel with the x/y coordinates 0/9
-   |0,8    # Line   1: LED  1 represents the pixel with the x/y coordinates 0/8
-   |0,7    # Line   2: LED  2 represents the pixel with the x/y coordinates 0/7
-   |...
-   |14,9   # Line  78: LED  78 represents the pixel with the x/y coordinates 14/9
-   |15,9   # Line  79: LED  79 represents the pixel with the x/y coordinates 15/9
-   |0,4    # Line  80: LED  80 represents the pixel with the x/y coordinates  0/4
-   |0,3    # Line  81: LED  81 represents the pixel with the x/y coordinates  0/3
-   |...
-   |15,2   # Line 157: LED 157 represents the pixel with the x/y coordinates 15/2
-   |15,3   # Line 158: LED 158 represents the pixel with the x/y coordinates 15/3
-   |15,4   # Line 159: LED 159 (the last one in the line) represents the pixel with the x/y coordinates 15/3
-   +--- END ---
+    +-- START ---
+    |0,9    # Line   0: LED  0 (closest to the raspberry) represents the pixel with the x/y coordinates 0/9
+    |0,8    # Line   1: LED  1 represents the pixel with the x/y coordinates 0/8
+    |0,7    # Line   2: LED  2 represents the pixel with the x/y coordinates 0/7
+    |...
+    |14,9   # Line  78: LED  78 represents the pixel with the x/y coordinates 14/9
+    |15,9   # Line  79: LED  79 represents the pixel with the x/y coordinates 15/9
+    |0,4    # Line  80: LED  80 represents the pixel with the x/y coordinates  0/4
+    |0,3    # Line  81: LED  81 represents the pixel with the x/y coordinates  0/3
+    |...
+    |15,2   # Line 157: LED 157 represents the pixel with the x/y coordinates 15/2
+    |15,3   # Line 158: LED 158 represents the pixel with the x/y coordinates 15/3
+    |15,4   # Line 159: LED 159 (the last one in the line) represents the pixel with the x/y coordinates 15/3
+    +--- END ---
 
 You can find the whole mapping of the example in file "pixel_map_16x10.csv".
